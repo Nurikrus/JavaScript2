@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: right;
+    padding: 2%;
+}
+
+.btn-cart {
+    padding: 1% 2%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.product-item {
+    padding: 1%;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
